@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT in cinema</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1> </h1>
+    </header>
+    <main>
+    <style>
+       .star {
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            animation: starMove 10s linear infinite;
+            opacity: 0.8;
+        }
+
+        @keyframes starMove {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(100vh);
+            }
+        }
+    </style>
+<script>
+        // Кількість зірок
+        const numStars = 200;
+
+        // Функція для генерації випадкового числа в діапазоні
+        function getRandom(min, max) {
+            return Math.random() * (max - min) + min;
+        }
+
+        // Додавання зірок у тіло сторінки
+        for (let i = 0; i < numStars; i++) {
+            const star = document.createElement('div');
+            star.classList.add('star');
+
+            // Випадкові координати, розмір та швидкість
+            const size = getRandom(1, 3); // Розмір зірки
+            const left = getRandom(0, window.innerWidth); // Випадкова горизонтальна позиція
+            const top = getRandom(-window.innerHeight, 0); // Початкова позиція вище екрана
+            const duration = getRandom(5, 15); // Тривалість анімації
+
+            // Застосування стилів до кожної зірки
+            star.style.width = `${size}px`;
+            star.style.height = `${size}px`;
+            star.style.left = `${left}px`;
+            star.style.top = `${top}px`;
+            star.style.animationDuration = `${duration}s`;
+
+            // Додати зірку на сторінку
+            document.body.appendChild(star);
+        }
+    </script>
+            <div >
+            <h1>Інформаційні технології<br> в сфері кіно</h1>
+            <img src="villy-wonka.jpg" alt="Картинка">
+        </div>
+        <a href="nav.html" class="styled-button">Дізнатись більше</a>
+
+    </main>
+    <footer>
+     <h4> Виконала ст. гр. 4КН-24Б - Походощук Катерина</h4>
+     <br>
+     <h5>ВНТУ-2024р</h5>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,173 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 113%;
+
+}
+
+.animated-background {
+    height: 100%; 
+    align-items: center;
+    animation: gradientAnimation 8s infinite;
+    background: linear-gradient(120deg, #1b1b1b, #6b2e2e); /* Start gradient */
+    background-size: 300% 300%;
+}
+
+/* Keyframes for gradient animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.main-text{
+    color:  #a78883;;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 3px;
+    padding-top: 100px;
+    margin-top: 0px;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Тінь для тексту */
+    font-weight: bold;
+}
+
+.prodaction1{
+    height: 230px;
+    width: 230px;
+    background: linear-gradient(45deg, rgba(212, 207, 207, 0.7), rgba(0, 0, 0, 0.3));
+    border-radius: 10px;
+    filter: brightness(1.1); /* Збільшення яскравості */
+    box-shadow: 10px 20px 40px rgba(1, 1, 1, 3); /* Тінь */
+    margin: 20px;
+    margin-left: 45px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+figure:hover img {
+    transform: scale(1.1); /* Збільшуємо зображення на 20% */
+  }
+
+    
+    figure {
+        text-align: center; /* Вирівнюємо текст під зображенням */
+        margin: 0;
+        
+    }
+
+    .clickable-text {
+        text-decoration: none; /* Забираємо підкреслення */
+        transition: transform 0.2s ease, color 0.2s ease; /* Анімація */
+    }
+    .clickable-text:active {
+        transform: scale(1.2); /* Збільшення тексту при натисканні */
+    }
+    
+    .prodaction2{
+        height: 230px;
+        width: 230px;
+        background: linear-gradient(45deg, rgba(212, 207, 207, 0.7), rgba(0, 0, 0, 0.3));
+        border-radius: 10px;
+        filter: brightness(1.1); /* Збільшення яскравості */
+        box-shadow: 10px 20px 40px rgba(1, 1, 1, 3); /* Тінь */
+        margin: 20px;
+        margin-left: 45px;
+        display: inline-block;
+    }
+    .prodaction3{
+        height: 230px;
+        width: 230px;
+        background: linear-gradient(45deg, rgba(212, 207, 207, 0.7), rgba(0, 0, 0, 0.3));
+        border-radius: 10px;
+        filter: brightness(1.1); /* Збільшення яскравості */
+        box-shadow: 10px 20px 40px rgba(1, 1, 1, 3); /* Тінь */
+        margin: 20px;
+        margin-left: 45px;
+        display: inline-block;
+    }
+    .prodaction4{
+        height: 230px;
+        width: 230px;
+        background: linear-gradient(45deg, rgba(212, 207, 207, 0.7), rgba(0, 0, 0, 0.3));
+        border-radius: 10px;
+        filter: brightness(1.1); /* Збільшення яскравості */
+        box-shadow: 10px 20px 40px rgba(1, 1, 1, 3); /* Тінь */
+        margin: 20px;
+        margin-left: 45px;
+        
+    
+    }
+
+    .prodaction5{
+        height: 230px;
+        width: 230px;
+        background: linear-gradient(45deg, rgba(212, 207, 207, 0.7), rgba(0, 0, 0, 0.3));
+        border-radius: 10px;
+        filter: brightness(1.1); /* Збільшення яскравості */
+        box-shadow: 10px 20px 40px rgba(1, 1, 1, 3); /* Тінь */
+        margin: 20px;
+        margin-left: 45px;
+         
+    }
+    .image-conteiner1{
+        display: flex; /* Встановлюємо контейнер як flex-контейнер */
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 80px;
+    animation: gradient 15s ease infinite;
+    
+    }
+
+    h3{
+        color:  #a78883;;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Prata", serif;
+    letter-spacing: 3px;
+    margin-top: 7px;
+    margin-left: 30px;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7); /* Тінь для тексту */
+    }
+
+    
+    .back-button {
+        position: fixed; /* Фіксуємо кнопку в одному місці */
+        top: 10px; /* Відступ від верхнього краю */
+        left: 10px; /* Відступ від лівого краю */
+        width: 40px; /* Ширина кнопки */
+        height: 40px; /* Висота кнопки */
+        background-color: #6d5754; /* Колір фону кнопки */
+        color: white; /* Колір тексту/стрілочки */
+        border: none; /* Видаляємо рамку */
+        border-radius: 50%; /* Робимо кнопку круглою */
+        display: flex; /* Вирівнюємо стрілочку всередині кнопки */
+        align-items: center;
+        justify-content: center;
+        font-size: 24px; /* Розмір стрілочки */
+        cursor: pointer; /* Міняємо курсор на вказівник */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Додаємо легку тінь */
+        transition: background-color 0.3s ease; /* Плавна зміна кольору */
+        text-decoration: none;
+      }
+  
+      .back-button:hover {
+        background-color: black; /* Темніший колір при наведенні */
+      }
+
+      footer{
+        text-align: center;
+        color: #a78883;
+        font-size: 15px;
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+        background-color: #301515dd;
+     padding:  0;
+     }
+   

@@ -1,0 +1,303 @@
+body, html {
+  justify-content: center;
+    align-items: center;
+    height: 280vh;
+    background: linear-gradient(120deg, #432424, #481d1d);
+    
+}
+
+
+header{
+  background-color: #301515a4;
+  
+}
+
+.back-button {
+    margin-top: 10px; /* Відступ від верхнього краю */
+    margin-left: 10px; /* Відступ від лівого краю */
+    width: 40px; /* Ширина кнопки */
+    height: 40px; /* Висота кнопки */
+    background-color: #6d5754; /* Колір фону кнопки */
+    color: white; /* Колір тексту/стрілочки */
+    border: none; /* Видаляємо рамку */
+    border-radius: 50%; /* Робимо кнопку круглою */
+    display: flex; /* Вирівнюємо стрілочку всередині кнопки */
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; /* Розмір стрілочки */
+    cursor: pointer; /* Міняємо курсор на вказівник */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Додаємо легку тінь */
+    transition: background-color 0.3s ease; /* Плавна зміна кольору */
+    text-decoration: none;
+  
+  }
+
+  .back-button:hover {
+    background-color: black; /* Темніший колір при наведенні */
+  }
+
+  .gradient-text {
+    color:  #c5b3a1;;
+    font-size: 50px;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7); /* Тінь для тексту */
+    margin-top: 0px;
+    z-index: 1; 
+    animation: gradient 15s ease infinite;
+    text-align: center;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    }
+
+    
+    .image-conteiner1{
+   display:  flex; /* Встановлюємо контейнер як flex-контейнер */
+    justify-content: flex-start;
+    padding-top: 5px;
+    padding-left: 130px;
+    animation: gradient 15s ease infinite;
+   
+  } 
+
+  .img-main{
+    height: 400px;
+    width: 300px;
+    background: linear-gradient(45deg, rgba(212, 207, 207, 0.7), rgba(0, 0, 0, 0.3));
+    border-radius: 10px;
+    filter: brightness(1.1); /* Збільшення яскравості */
+    box-shadow: 10px 20px 40px rgba(1, 1, 1, 3); /* Тінь */
+    margin: 20px;
+    margin-left: 45px;
+  }
+  
+  .line {
+    width: 100%; /* Ширина на весь екран */
+    height: 5px; /* Товщина лінії */
+    background: #050505; /* Градієнтна лінія */
+    margin: 0; /* Без відступів */
+  }
+
+.Streaming-Services{
+  color:  #c5b3a1;
+    font-size: 60px;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 5px rgba(149, 29, 29, 0.7); /* Тінь для тексту */
+    margin-top: 0px;
+text-align: center;
+padding-bottom: 0%;
+margin-top: 80px;
+
+}
+.services{
+  color: #c5b3a1;
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 1px;
+}
+
+.image-conteiner2{
+  display: flex; /* Встановлюємо контейнер як flex-контейнер */
+justify-content: flex-start;
+padding: 5px;
+margin: 5px;
+animation: gradient 15s ease infinite;
+margin-left: 320px;
+}
+
+h3{
+  color:  #c5b3a1;
+text-align: center;
+font-size: 22px;
+font-family: "Prata", serif;
+letter-spacing: 3px;
+margin-top: 7px;
+margin-left: 30px;
+letter-spacing: 3px;
+text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7); /* Тінь для тексту */
+}
+.prodaction2{
+  height: 140px;
+  width: 140px;
+  background: linear-gradient(45deg, rgba(212, 207, 207, 0.7), rgba(0, 0, 0, 0.3));
+  border-radius: 10px;
+  filter: brightness(1.1); /* Збільшення яскравості */
+  box-shadow: 10px 20px 40px rgba(1, 1, 1, 3); /* Тінь */
+  margin: 20px;
+  margin-left: 45px;
+  display: inline-block;
+}
+.prodaction3{
+  height: 140px;
+  width: 140px;
+  background: linear-gradient(45deg, rgba(212, 207, 207, 0.7), rgba(0, 0, 0, 0.3));
+  border-radius: 10px;
+  filter: brightness(1.1); /* Збільшення яскравості */
+  box-shadow: 10px 20px 40px rgba(1, 1, 1, 3); /* Тінь */
+  margin: 20px;
+  margin-left: 45px;
+  display: inline-block; 
+  transition: transform 0.3s ease;
+}
+figure:hover img {
+  transform: scale(1.1); /* Збільшуємо зображення на 20% */
+}
+
+
+.prodaction4{
+  height: 140px;
+  width: 140px;
+  background: linear-gradient(45deg, rgba(212, 207, 207, 0.7), rgba(0, 0, 0, 0.3));
+  border-radius: 10px;
+  filter: brightness(1.1); /* Збільшення яскравості */
+  box-shadow: 10px 20px 40px rgba(1, 1, 1, 3); /* Тінь */
+  margin: 20px;
+  margin-left: 45px;
+  
+
+}
+
+.prodaction5{
+  height: 140px;
+  width: 140px;
+  background: linear-gradient(45deg, rgba(212, 207, 207, 0.7), rgba(0, 0, 0, 0.3));
+  border-radius: 10px;
+  filter: brightness(1.1); /* Збільшення яскравості */
+  box-shadow: 10px 20px 40px rgba(1, 1, 1, 3); /* Тінь */
+  margin: 20px;
+  margin-left: 45px;
+  
+}
+figure {
+  text-align: center; /* Вирівнюємо текст під зображенням */
+  margin: 0;
+  
+}
+
+.digital{
+  display: flex;
+  justify-self: start;
+  margin-left: 250px;
+  
+}
+
+.img{
+  height: 250px;
+  width: 250px;
+  background: linear-gradient(45deg, rgba(212, 207, 207, 0.7), rgba(0, 0, 0, 0.3));
+  border-radius: 10px;
+  filter: brightness(1.1); /* Збільшення яскравості */
+  box-shadow: 10px 20px 40px rgba(1, 1, 1, 3); /* Тінь */
+  margin: 20px;
+  margin-left: 45px;
+  transition: transform 0.3s ease;
+}
+.img:hover img {
+  transform: scale(1.1); /* Збільшуємо зображення на 20% */
+}
+
+   
+
+
+.film{
+  margin-top: 60px;
+  line-height: 40px;
+  animation: colorChange 5s infinite;
+    }
+
+    @keyframes colorChange {
+      0% { color: #c1bdbc; }
+      50% { color: #c5a685; }
+      100% { color: #c1bdbc; }
+
+}
+
+.dop{
+  padding-top: 5px;
+   text-align: center;
+   line-height: 1;
+   color: #c5b3a1;
+   font-size: 19px;
+   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  letter-spacing: 3px;
+  animation: colorChange 5s infinite;
+    }
+
+    @keyframes colorChange {
+      0% { color: #c1bdbc; }
+      50% { color: #c5a685; }
+      100% { color: #c1bdbc; }
+}
+
+
+.line1 {
+  width: 100%; /* Ширина на весь екран */
+  height: 5px; /* Товщина лінії */
+  background: #130d0d; /* Градієнтна лінія */
+  margin-bottom: 80px;
+  margin-top: 80px; /* Без відступів */
+}
+
+footer{
+     text-align: center;
+     color: #c5b3a1;
+     font-size: 15px;
+     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+     background-color: #301515dd;
+  padding:  0;
+  }
+
+  .line2 {
+    width: 100%; /* Ширина на весь екран */
+    height: 5px; /* Товщина лінії */
+    background: #130d0d; /* Градієнтна лінія */
+   padding-bottom: 0px;
+    margin-top: 80px; /* Без відступів */
+  }
+
+  .menu{
+    text-align: right;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #c5b3a1;
+     font-size: 15px;
+     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  }
+
+  .list{
+   padding: 5px;
+   text-decoration: none;
+   color: #fefdfd;
+     font-size: 15px;
+     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    background-color: #441111;
+    margin-left: 10px;
+   
+
+  }
+
+  .navi{
+    display: flex;
+    justify-self: start;
+    
+  }
